@@ -280,3 +280,59 @@ body::before {
     margin: 0;
     font-size: 30px;
 }
+
+.catt {
+    background-image: url(files/Lab6/catt.png);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+@keyframes pulse-image {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.catt:hover {
+    /* scale: 150%; */
+    animation: pulse-image 5s infinite;
+}
+
+.overflow {
+    height: 350px;
+    width: 90%;
+    overflow: auto;
+    color: white;
+    padding-right: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.5); 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255, 0.5); 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
