@@ -8,13 +8,18 @@
     src: url('fonts/ClashDisplay-Medium.otf') format('opentype'),
 }
 
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url('fonts/Amazon\ Ember.ttf') format('truetype'),
+}
+
 @keyframes hueRotateAnimation {
     0% { filter: hue-rotate(0deg); }
     100% { filter: hue-rotate(360deg); }
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: AmazonEmber;
     display: flex;
     height: 100hv;
     width: 100hv;
@@ -81,8 +86,7 @@ body::before {
 .main {
     margin-top: 20px;
     height: 75%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    width: 1300px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
@@ -121,10 +125,25 @@ body::before {
     margin-right: 40px;
 }
 
+.block-video {
+    height: 400px;
+    width: 45%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.video {
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
 .social {
     height: 55px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    width: 1300px;
     margin-top: 20px;
     box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
