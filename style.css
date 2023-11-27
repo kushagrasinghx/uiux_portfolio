@@ -285,7 +285,9 @@ body::before {
     background-image: url(files/Lab6/catt.png);
     height: 350px;
     width: 350px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
@@ -335,4 +337,276 @@ body::before {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff; 
+}
+
+.col1 {
+    display: flex;
+    justify-content: space-around;
+}
+.col2 {
+    display: flex;
+    justify-content: space-around;
+}
+.col3 {
+    display: flex;
+    justify-content: space-around;
+}
+.col4 {
+    display: flex;
+    justify-content: space-around;
+}
+.col5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image1 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question1.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image2 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question2.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image3 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question3.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image4 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question4.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image5 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question5.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image6 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question6.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image7 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question7.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image8 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question8.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image9 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question9.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image10 {
+    background-image: url("files/Lab2/PhotoshopFIles/221b217_Question9_2.jpg");
+    height: 200px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .image1:hover {
+    scale: 110%;
+}
+
+.image2:hover {
+    scale: 110%;
+}
+
+.image3:hover {
+    scale: 110%;
+}
+
+.image4:hover {
+    scale: 110%;
+}
+
+.image5:hover {
+    scale: 110%;
+}
+
+.image6:hover {
+    scale: 110%;
+}
+
+.image7:hover {
+    scale: 110%;
+}
+
+.image8:hover {
+    scale: 110%;
+}
+
+.image9:hover {
+    scale: 110%;
+}
+
+.image10:hover {
+    scale: 110%;
+} */
+
+.img-lab4 {
+    background-image: url(files/Lab4/221B217_KushagraSingh_Lab4.png);
+    height: 350px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.img-lab4:hover {
+    /* scale: 150%; */
+    animation: pulse-image 5s infinite;
+}
+
+.lab3-img1 {
+    background-image: url("files/Lab3/221B217_Lab3_Question1.png");
+    height: 250px;
+    width: 99%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab3-img2 {
+    background-image: url("files/Lab3/221B217_Lab3_Question2.jpg");
+    height: 250px;
+    width: 99%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab3-img3 {
+    background-image: url("files/Lab3/221B217_Lab3_Question3.jpg");
+    height: 250px;
+    width: 99%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab5-img1 {
+    background-image: url("files/Lab5/Lab5-A.png");
+    height: 250px;
+    width: 99%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lab5-img2 {
+    background-image: url("files/Lab5/Lab5-B.png");
+    height: 250px;
+    width: 99%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
